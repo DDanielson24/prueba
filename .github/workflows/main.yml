@@ -12,9 +12,6 @@ jobs:
         - name: Clonar repositorio
           uses: actions/checkout@v2
           
-        - name: Comprobar OPENSSL
-          run:  cat ./etc/ssl/openssl.cnf
-          
         - name: Ejecutar el script de shell para la descarga de ficheros
           run: ./data.sh
           
