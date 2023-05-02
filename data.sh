@@ -1,3 +1,3 @@
 #!/bin/bash
 
-wget 'https://datos.madrid.es/egob/catalogo/202087-0-trafico-intensidad.xml' -O 'ficheroTrafico.xml'
+wget 'https://geoportalgasolineras.es/resources/files/preciosEESS_es.xls' -O 'ficheroGasolina.xml'
